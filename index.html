@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+      }
+        body{
+            background-color: rgb(0, 0,44);
+            color: white;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+     align-items: center;
+     height: 80px;
+     background-color: rgb(4, 4,19);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: aquamarine;
+        }
+        nav ul li a:hover{
+            color: rgb(11, 224, 75);
+        }
+        main hr{
+            border: 0;
+            background-color: antiquewhite;
+            height: 2.2px;
+            margin-top: 40px 84px;
+        }
+        .left{
+            font-size: 1.3rem;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+            align-items: center;
+        }
+        .firstSection > div{
+          width: 30%;
+            
+        }
+        .rightSection img{
+        width: 90%;
+        margin: 50px 0;
+        }
+
+        .leftSection{
+            font-size: 3rem;
+        
+        }
+        .leftSection .btn{
+           padding: 12px;
+           background-color: rgb(2, 35, 24);
+           color: rgb(10, 239, 174);
+           border: 2px solid wheat;
+           border-radius: 6px;
+           cursor: pointer;
+        }
+        .purple{
+            color: rgb(79, 66, 254);
+        }
+        .text-gray{
+            color: gray;
+        }
+        #element{
+            color: purple ;
+        }
+        .secondsection{
+            max-width: 80vw;
+            margin: auto;
+            height: 67vh;
+        }
+        .secondsection h1{
+            font-size: 1.1rem;
+        }
+        .secondsection .box{
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 50px 0;
+        display: flex;
+        }
+        .secondsection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+        
+        .image-top{
+            width: 33px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+        .vertical-title{
+        position: relative;
+        top: 65px;
+        width: 150px;
+        }
+        .vertical-desc{
+           position: relative;
+           top: 70px;
+           color: gray;
+           width: 100px;
+           font-size: 10px;
+
+        }
+        footer{
+            background-color: rgb(13, 1, 26);
+        
+        }
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul {
+            list-style: none  ;
+        }
+        .footer > div{
+          width: 150px;
+        }
+.footer-rights{
+        text-align: center;
+     color: cadetblue;
+     padding: 12px;
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">ASHISH </div>
+            <div class="right"></div>
+            <ul>
+                <li> <a href="/"> About</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/"> Service</a></li>
+                <li><a href="/">Contacts Me</a></li>
+                <li><a href="/">Projects</a></li>
+               
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+              Hi, i am  <span class="purple">Ashish</span>
+              <div>and i am passionate</div>
+        
+              <span id="element"></span>
+              <div class="button">
+                <button class="btn">
+                    <a href="https://github.com/Ashish149"target="blank"> Visit Github</a>
+                </button>
+               
+              </div>
+            </div>
+            <div class="rightSection">
+                 
+                 <img src="developer.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">what i have done so far</span>
+            <h1>Worked Experience</h1>
+            <div class="box">
+            <div class="vertical">
+            <img class="image-top" src="devlo.png" alt="">
+            <div class="vertical-title">
+                HTML Developer
+            </div>
+       
+            <div class="vertical-desc">
+               In HTML, i learned about how to create a basic website 
+               without any style.
+            </div>
+        </div>
+        <div class="vertical">
+            <img class="image-top" src="devlo.png" alt="">
+            <div class="vertical-title">
+              CSS devloper
+            </div>
+       
+            <div class="vertical-desc">
+                CSS (Cascading Style Sheets) is a language used to style 
+                and layout web pages. 
+                CSS is used to define the appearance
+                 and layout of a web page, including the font, color, 
+                 size, and spacing of content.
+            </div>
+        </div>
+        <div class="vertical">
+            <img class="image-top" src="devlo.png" alt="">
+            <div class="vertical-title">
+                Javascript Developer
+            </div>
+       
+            <div class="vertical-desc">
+            
+                JavaScript (JS) is a cross-platform, object-oriented programming language 
+                used by developers to make web pages interactive. It allows developers to 
+                create dynamically updating content, use animations, pop-up menus, 
+                clickable buttons, control multimedia, etc.
+            </div>
+        </div> <div class="vertical">
+            <img class="image-top" src="devlo.png" alt="">
+            <div class="vertical-title">
+                Java(DSA)
+            </div>
+       
+            <div class="vertical-desc">
+                Data structures and algorithms (DSA) goes through solutions to 
+                 problems in detail and gives you an insight into how efficient it
+                  is to use each one of them.
+            </div>
+        </div>
+
+        <div class="vertical">
+            <img class="image-top" src="devlo.png" alt="">
+            <div class="vertical-title">
+           MYSQL
+            </div>
+       
+            <div class="vertical-desc">
+                Databases are the essential data repository for all software applications.
+                MySQL is a relational database management system based on SQL – Structured Query Language.
+                 The application is used for a wide range of purposes, including data warehousing, 
+                 e-commerce, and logging applications.
+            </div>
+        </div>
+          
+            
+
+            <div class="vertical"></div>
+            <div class="vertical"></div>
+        </div>
+        </section>
+    </main>
+    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Java(DSA)', 'Mysql' ,'OOPS','HTML','CSS','Javascript'],
+          typeSpeed: 50,
+        });
+      </script>
+
+<footer>
+    <div class="footer">
+        <div class="footer-first">
+            <h3>Ashish's Developer portfolio</h3>
+        </div>
+        <div class="footer-second">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Service</li>
+        </ul>
+        </div>
+        <div class="footer-third">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Service</li>
+            </ul>
+        </div>
+        <div class="footer-fourth">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Service</li>
+            </ul>
+        </div>
+    </div>
+  
+        <div class="footer-rights">
+            www.AshishPortfolio.com | All rights reserved
+        </div>
+    
+</footer>
+</body>
+</html>
